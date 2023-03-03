@@ -1,9 +1,14 @@
 $(document).ready(function(){
+    $(".hidden").hide();
     $("#show").click(function(){
+      $(".everything").hide();
+      $(".content").hide();
       $(".hidden").show();
       console.log("hit");
     });
     $("#hide").click(function(){
         $(".hidden").hide();
+        $(".everything").show();
+        $(".content").show();
     });
   });

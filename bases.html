@@ -9,21 +9,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="bases.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="index.js"></script>
 </head>
 
 <body>
-    <h1 id="Header">The Units</h1>
-    <h2 id="subheader">Bases</h2>
-    <button id="menu" onclick="menu_open()" class="menu-toggle">☰</button>
+    <div class="everything">
+        <button id="show">☰</button>
+        <h1 id="Header">The Units</h1>
+        <h2 id="subheader">Bases</h2>
+    </div>
     <nav>
-        <ul role="navigation" class="hidden">
-            <li><a href="#">Prefixes</a></li>
-			<li><a href="#">Bases</a></li>
-			<li><a href="#">Questions</a></li>
-			<li><a href="#">Blog</a></li>
-            <li><a href="#">Volume</a></li>
+        <ul class="hidden">
+            <li><a href="prefixes.html">Prefixes</a></li>
+
+            <li><a href="bases.html">Bases</a></li>
+
+            <li><a href="questions.html">Questions</a></li>
+
+            <li><a href="blog.html">Blog</a></li>
+
+            
+
+            <li><a href="volume.html">Volume</a></li>
+            <li><a href="index.html">Home</a></li>
+
+            <li><button id="hide">X</button></li>
         </ul>
     </nav>
+
 
     <div class="content">
         <div class="tables">
@@ -69,10 +82,17 @@
                     <td>k</td>
                 </tr>
             </table>
+
         </div>
-        <p>Each entity of measurement has a different base unit (an entity of measurement is a type of measurement for something, like weight or length). For example, the base unit for mass is the gram. Likewise, the base unit for length is the meter. Each base unit also has an abbreviation for conventional purposes. For example, the abbreviation for the gram, which is the base unit for mass, is the letter g. By the same process, the abbreviation for the meter, which is the base unit for length, is the letter m. </p><br>
+
+        <p>Each entity of measurement has a different base unit (an entity of measurement is a type of measurement for
+            something, like weight or length). For example, the base unit for mass is the gram. Likewise, the base unit
+            for length is the meter. Each base unit also has an abbreviation for conventional purposes. For example, the
+            abbreviation for the gram, which is the base unit for mass, is the letter g. By the same process, the
+            abbreviation for the meter, which is the base unit for length, is the letter m. </p><br>
+        <img src="SI-Units-Ali-DM-Shutterstock.jpg" alt="GET A NEW COMPUTER">
     </div>
-    
+
 </body>
 
 </html>

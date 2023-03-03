@@ -7,26 +7,47 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="prefixes.css">
+    <link rel="stylesheet" href="bases.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="index.js"></script>
 </head>
 
 <body>
-    <h1 id="Header">The Units</h1>
-    <h2 id="subheader">Prefixes</h2>
-    <button id="menu" onclick="menu_open()" class="menu-toggle">☰</button>
+    <div class="everything">
+        <button id="show">☰</button>
+        <h1 id="Header">The Units</h1>
+        <h2 id="subheader">Prefixes</h2>
+    </div>
     <nav>
-        <ul role="navigation" class="hidden">
-            <li><a href="#">Prefixes</a></li>
-			<li><a href="#">Bases</a></li>
-			<li><a href="#">Questions</a></li>
-			<li><a href="#">Blog</a></li>
-            <li><a href="#">Volume</a></li>
+        <ul class="hidden">
+            <li><a href="prefixes.html">Prefixes</a></li>
+
+            <li><a href="bases.html">Bases</a></li>
+
+            <li><a href="questions.html">Questions</a></li>
+
+            <li><a href="blog.html">Blog</a></li>
+
+
+
+            <li><a href="volume.html">Volume</a></li>
+            <li><a href="index.html">Home</a></li>
+
+            <li><button id="hide">X</button></li>
         </ul>
     </nav>
+
+
     <div class="content">
-        <p>   The metric system is made of prefixes and bases. The prefixes determine the size of the base. For example, Kilo-, or K, means 1000 of the original. So, a Kilogram, or Kg, is 1000 grams. Likewise, a milligram, or mg, means 0.001 of a gram. All measurements go up in 10’s. For example, a deca- multiplies the base by 10, a hecto- by 100, a kilo- by 1000, and so on. It works going down the table too, with deci- as 0.1, centi as 0.01, and milli as 0.001.</p><br>
+        <p>The metric system is made of prefixes and bases. The prefixes determine the size of the base. For example,
+            Kilo-, or K, means 1000 of the original. So, a Kilogram, or Kg, is 1000 grams. Likewise, a milligram, or mg,
+            means 0.001 of a gram. All measurements go up in 10’s. For example, a deca- multiplies the base by 10, a
+            hecto- by 100, a kilo- by 1000, and so on. It works going down the table too, with deci- as 0.1, centi as
+            0.01, and milli as 0.001.</p>
+            <img src="prefixes.png">
+            <img src="prifexsf.webp" alt="">
     </div>
+
 </body>
 
 </html>
