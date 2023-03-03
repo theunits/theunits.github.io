@@ -4,7 +4,6 @@ $(document).ready(function(){
       $(".everything").hide();
       $(".content").hide();
       $(".hidden").show();
-      console.log("hit");
     });
     $("#hide").click(function(){
         $(".hidden").hide();
