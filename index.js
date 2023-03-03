@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $("#show").click(function(){
+      $(".hidden").show();
+      console.log("hit");
+    });
+    $("#hide").click(function(){
+        $(".hidden").hide();
+    });
+  });

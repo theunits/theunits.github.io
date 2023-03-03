@@ -1,0 +1,39 @@
+
+body {
+    font-family: 'Inconsolata', monospace;
+    background-color: black;
+    color: white;
+}
+h1 {
+    text-align: center;
+
+}
+#subheader {
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
+#menu {
+    font-size: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 5px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin: 4em auto;
+    text-align:center;
+}
+
+.hidden {
+    display: none;    
+}
+
+.content {
+    padding: 2%;
+}
